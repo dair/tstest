@@ -1,1 +1,3 @@
-export const someVar = 42
+namespace MyNamespace {
+    export const someVar = 42
+}

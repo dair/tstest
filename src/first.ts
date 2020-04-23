@@ -1,6 +1,7 @@
 /// <reference path="./second.ts" />
-import { someVar } from './second'
 
-console.log("Hello " + someVar.toString())
+namespace MyNamespace {
 
-console.log("Hello again" + someVar.toString())
+    console.log("Hello " + someVar.toString())
+}
+
