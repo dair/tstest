@@ -23,3 +23,13 @@ ReferenceError: someVar is not defined
 ```
 
 **The question**: how to run this?
+
+
+
+**Update**: got it. It is needed to write
+```
+import { someVar } from 'second'
+```
+
+for this to work.
+Makes sense.

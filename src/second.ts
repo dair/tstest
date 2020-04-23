@@ -1,1 +1,1 @@
-const someVar = 42
+export const someVar = 42
